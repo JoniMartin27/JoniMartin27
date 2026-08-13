@@ -10,6 +10,11 @@
   <img src="https://img.shields.io/badge/foco-Agentic%20AI%20%2B%20Full--Stack-purple" alt="Foco">
 </p>
 
+<p align="center">
+  Todo mi trabajo vive bajo <a href="https://fervon.dev"><strong>Fervon</strong></a> — mi estudio de software autónomo.<br>
+  <em>Forjado al rojo vivo</em>
+</p>
+
 ---
 
 ## 🇪🇸 Sobre mí
