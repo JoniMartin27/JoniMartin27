@@ -31,18 +31,20 @@ También diseño y publico **juegos móviles** (Phaser + Capacitor) como parte d
 
 ## 🚀 Proyectos destacados / Featured projects
 
+Todo esto vive bajo **[Fervon](https://fervon.dev)**, mi estudio de software autónomo. Cada enlace lleva a su página, con capturas, precio y descarga.
+
 | Proyecto | Qué es | Stack |
 |---|---|---|
-| 🧠 **[AGENT-OS](https://github.com/JoniMartin27/AGENT-OS)** | Capa de control agentic: orquesta, dirige y audita flotas de agentes de IA (RBAC, control plane, trazabilidad total). | TypeScript · Monorepo · LLM |
-| 🔭 **[Lookspan](https://github.com/JoniMartin27/lookspan)** | Observabilidad local-first para agentes de IA. Nativo para MCP. Mira cada span que emiten tus agentes — sin nube, coste cero. | TypeScript · MCP · SQLite |
-| ⚡ **[InferBench](https://github.com/JoniMartin27/inferbench)** | Panel de escritorio para descargar, arrancar, medir y comparar motores de inferencia LLM con un click. | Python · FastAPI · Electron · React |
-| 🦆 **[Pato Patrick](https://github.com/JoniMartin27/pato-patrick)** | Shooter top-down móvil: 4 mundos, 20 niveles, 6 armas y árbol de habilidades. | TypeScript · Phaser 3 · Capacitor |
-| 🎮 **[Prompt Tycoon](https://github.com/JoniMartin27/prompt-tycoon)** | Idle tycoon educativo sobre la historia de la IA. APK Android con Capacitor 6. | JavaScript · Capacitor · AdMob |
-| 📝 **[quick-capture](https://github.com/JoniMartin27/quick-capture)** | Bot de Telegram que captura ideas/tareas/notas (texto o voz), las clasifica con Claude y las guarda en SQLite + FTS. | Node.js · Telegram · SQLite · Whisper |
-| 🗣️ **[whatsapp-voice-bot](https://github.com/JoniMartin27/whatsapp-voice-bot)** | CLI que genera notas de voz TTS y las envía por WhatsApp Web vía cable de audio virtual. | Node.js · edge-tts · CLI |
-| 🦶 **[dynafeet-web](https://github.com/JoniMartin27/dynafeet-web)** | Landing one-page para una clínica de podología (Málaga). Vanilla + GSAP, reserva por WhatsApp. | HTML · CSS · JS · GSAP |
+| 🧠 **[Regenta](https://fervon.dev/regenta/)** | Capa de control agentic: orquesta, dirige y audita flotas de agentes de IA. RBAC, control plane y trazas. | TypeScript · React · Express · SQLite |
+| 🧵 **[Trace](https://fervon.dev/trace/)** | Memoria personal local-first: encuentra lo que viste, leíste o hiciste. Sin grabar la pantalla y sin nube. | TypeScript · Node · SQLite |
+| ⚖️ **[Veredicto](https://fervon.dev/veredicto/)** | Check de CI que pilla los tests de agentes que no prueban nada: over-mocking, asserts vacuos, `.skip`. | TypeScript · GitHub Actions |
+| 🔭 **[Lookspan](https://fervon.dev/lookspan/)** | Observabilidad local-first para agentes de IA, nativa para MCP. Mira cada span que emiten. | TypeScript · Node · React |
+| ⚡ **[inferbench](https://fervon.dev/inferbench/)** | Descarga, arranca y mide motores de inferencia LLM locales con un click. tok/s, TTFT y VRAM reales. | React · Electron · Python · FastAPI |
+| 🔎 **[ClaudeScope](https://fervon.dev/claudescope/)** | Búsqueda full-text en todas tus sesiones de Claude Code, más panel de uso. Cero dependencias, cero red. | TypeScript · Node |
+| 🛰️ **[Mission Control](https://fervon.dev/launchpad/)** | Una carpeta, doce repos, una pantalla: los arranca a la vez en puertos sin colisión. | Fastify · React · WebSockets |
+| 📣 **[Pregón](https://fervon.dev/pregon/)** | Cross-poster: compón una vez y publica adaptado a catorce canales, con tracción real. | Next.js · Prisma · SQLite |
 
----
+También trabajo en cosas que aún no son públicas: un bot de trading paper-first (cripto + acciones), juegos móviles con Capacitor, un bot de Telegram para capturar notas por voz y automatizaciones domésticas sobre una Raspberry Pi.
 
 ## 🛠️ Stack tecnológico / Tech stack
 
