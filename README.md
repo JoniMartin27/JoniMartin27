@@ -207,7 +207,7 @@ Y el pulso de la forja — último commit en cada repo público:
   <a href="https://github.com/JoniMartin27/claudescope"><img src="https://img.shields.io/github/last-commit/JoniMartin27/claudescope?label=claudescope&color=1a1310&labelColor=0e0b0a" alt="último commit en claudescope"></a>
   <a href="https://github.com/JoniMartin27/launchpad"><img src="https://img.shields.io/github/last-commit/JoniMartin27/launchpad?label=launchpad&color=1a1310&labelColor=0e0b0a" alt="último commit en launchpad"></a>
   <a href="https://github.com/JoniMartin27/veredicto"><img src="https://img.shields.io/github/last-commit/JoniMartin27/veredicto?label=veredicto&color=1a1310&labelColor=0e0b0a" alt="último commit en veredicto"></a>
-  <a href="https://github.com/JoniMartin27/pregon"><img src="https://img.shields.io/github/last-commit/JoniMartin27/pregon?label=pregón&color=1a1310&labelColor=0e0b0a" alt="último commit en pregón"></a>
+  <a href="https://github.com/JoniMartin27/pregon"><img src="https://img.shields.io/github/last-commit/JoniMartin27/pregon?label=preg%C3%B3n&color=1a1310&labelColor=0e0b0a" alt="último commit en pregón"></a>
 </p>
 
 ---
