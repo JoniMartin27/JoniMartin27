@@ -189,11 +189,25 @@ Escribo sobre cómo se dirige de verdad una flota de agentes, en **[el blog de F
 
 ---
 
-## GitHub
+## La forja en números
+
+Descargas reales de los paquetes públicos, actualizadas solas:
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=JoniMartin27&show_icons=true&hide_border=true&count_private=true&bg_color=0e0b0a&title_color=ff6a00&icon_color=ff6a00&text_color=e8e0d8" alt="Estadísticas de GitHub de JoniMartin27" height="165">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=JoniMartin27&layout=compact&hide_border=true&langs_count=8&bg_color=0e0b0a&title_color=ff6a00&text_color=e8e0d8" alt="Lenguajes más usados" height="165">
+  <a href="https://www.npmjs.com/package/lookspan"><img src="https://img.shields.io/npm/dm/lookspan?label=lookspan&color=ff6a00&labelColor=1a1310" alt="descargas mensuales de lookspan"></a>
+  <a href="https://www.npmjs.com/package/claudescope-cli"><img src="https://img.shields.io/npm/dm/claudescope-cli?label=claudescope-cli&color=ff6a00&labelColor=1a1310" alt="descargas mensuales de claudescope-cli"></a>
+  <a href="https://www.npmjs.com/package/@fervon/launchpad"><img src="https://img.shields.io/npm/dm/%40fervon%2Flaunchpad?label=%40fervon%2Flaunchpad&color=ff6a00&labelColor=1a1310" alt="descargas mensuales de @fervon/launchpad"></a>
+</p>
+
+Y el pulso de la forja — último commit en cada repo público:
+
+<p align="center">
+  <a href="https://github.com/JoniMartin27/lookspan"><img src="https://img.shields.io/github/last-commit/JoniMartin27/lookspan?label=lookspan&color=1a1310&labelColor=0e0b0a" alt="último commit en lookspan"></a>
+  <a href="https://github.com/JoniMartin27/inferbench"><img src="https://img.shields.io/github/last-commit/JoniMartin27/inferbench?label=inferbench&color=1a1310&labelColor=0e0b0a" alt="último commit en inferbench"></a>
+  <a href="https://github.com/JoniMartin27/claudescope"><img src="https://img.shields.io/github/last-commit/JoniMartin27/claudescope?label=claudescope&color=1a1310&labelColor=0e0b0a" alt="último commit en claudescope"></a>
+  <a href="https://github.com/JoniMartin27/launchpad"><img src="https://img.shields.io/github/last-commit/JoniMartin27/launchpad?label=launchpad&color=1a1310&labelColor=0e0b0a" alt="último commit en launchpad"></a>
+  <a href="https://github.com/JoniMartin27/veredicto"><img src="https://img.shields.io/github/last-commit/JoniMartin27/veredicto?label=veredicto&color=1a1310&labelColor=0e0b0a" alt="último commit en veredicto"></a>
+  <a href="https://github.com/JoniMartin27/pregon"><img src="https://img.shields.io/github/last-commit/JoniMartin27/pregon?label=pregón&color=1a1310&labelColor=0e0b0a" alt="último commit en pregón"></a>
 </p>
 
 ---
