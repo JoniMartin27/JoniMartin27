@@ -15,6 +15,7 @@
 <p align="center">
   <a href="https://fervon.dev"><img src="https://img.shields.io/badge/fervon.dev-el%20portal-ff6a00?style=for-the-badge&labelColor=1a1310" alt="fervon.dev"></a>
   <a href="https://fervon.dev/about/"><img src="https://img.shields.io/badge/qui%C3%A9n%20soy-about-1a1310?style=for-the-badge&labelColor=0e0b0a" alt="Sobre Fervon"></a>
+  <a href="https://fervon.dev/servicios/"><img src="https://img.shields.io/badge/por%20encargo-servicios-1a1310?style=for-the-badge&labelColor=0e0b0a" alt="Servicios de Fervon"></a>
   <a href="https://fervon.dev/blog/"><img src="https://img.shields.io/badge/escritos-blog-1a1310?style=for-the-badge&labelColor=0e0b0a" alt="Blog de Fervon"></a>
   <a href="https://www.npmjs.com/~lookspan"><img src="https://img.shields.io/badge/paquetes-npm%20%2B%20PyPI-1a1310?style=for-the-badge&labelColor=0e0b0a" alt="Paquetes"></a>
 </p>
@@ -22,6 +23,7 @@
 <p align="center">
   <a href="#la-forja">🔥 La forja</a> ·
   <a href="#instalables-hoy">📦 Instalables hoy</a> ·
+  <a href="#trabajo-por-encargo">💼 Por encargo</a> ·
   <a href="#en-el-yunque">🔨 En el yunque</a> ·
   <a href="#el-laboratorio">🧪 El laboratorio</a> ·
   <a href="#escritos">✍️ Escritos</a> ·
@@ -33,7 +35,9 @@
 
 ## Sobre mí
 
-Soy desarrollador de software en España y llevo **[Fervon](https://fervon.dev)**, un *estudio de software autónomo*: una forja de un solo desarrollador donde **flotas de agentes de IA escriben, revisan y mergean su propio código**, con la disciplina de un equipo de ingeniería de verdad.
+Soy desarrollador de software en Málaga y llevo **[Fervon](https://fervon.dev)**, un *estudio de software autónomo*: una forja de un solo desarrollador donde **flotas de agentes de IA escriben, revisan y mergean su propio código**, con la disciplina de un equipo de ingeniería de verdad.
+
+Fervon hace dos cosas: **productos propios** — los de aquí abajo — y **software por encargo** para quien lo necesita, a [precio cerrado](#trabajo-por-encargo) y en remoto.
 
 Lo que sale de ahí son herramientas para quien también trabaja con agentes: **orquestación**, **observabilidad**, **benchmarking de modelos locales** y **control de calidad en CI**. Casi todo es **local-first**: se ejecuta en tu máquina, sin nube y sin telemetría.
 
@@ -44,19 +48,21 @@ Trabajo de punta a punta — backend en TypeScript y Python, interfaces en React
 
 <br>
 
-I'm a software engineer from Spain running **[Fervon](https://fervon.dev)**, a one-person **autonomous software studio**: a forge where **fleets of AI agents write, review and merge their own code**, run with the discipline of a real engineering team.
+I'm a software engineer based in Málaga, Spain, running **[Fervon](https://fervon.dev)**, a one-person **autonomous software studio**: a forge where **fleets of AI agents write, review and merge their own code**, run with the discipline of a real engineering team.
 
 What comes out of it is tooling for people who also work with agents — **fleet orchestration**, **AI agent observability**, **local LLM inference benchmarking** and **CI quality gates for agent-written tests**. Almost everything is **local-first**: it runs on your machine, no cloud, no telemetry.
+
+Fervon also **builds software to order** — custom web apps and APIs, SaaS from scratch, RAG chatbots over your own data, AI agents and process automation, LLM features inside an existing product, and internal tools. Fixed price agreed in writing before anything starts, never hourly; the code is yours, handed over with its docs and tests. Remote, worldwide. **[Services →](https://fervon.dev/en/servicios/)**
 
 | Project | What it does |
 |---|---|
 | **[Regenta](https://fervon.dev/en/regenta/)** | Agentic control plane — orchestrate, steer and audit fleets of AI agents. Roles, policies and full traces. |
-| **[Trace](https://fervon.dev/en/trace/)** | Local-first personal memory — find anything you saw, read or did. No screen recording, no cloud. A [Rewind AI alternative](https://fervon.dev/trace/rewind-ai-alternative) that never leaves your machine. |
+| **[Trace](https://fervon.dev/en/trace/)** | Local-first personal memory — find anything you saw, read or did. No screen recording, no cloud. A [Rewind AI alternative](https://fervon.dev/trace/rewind-ai-alternative) that never leaves your machine. $39 one-off. |
 | **[Lookspan](https://fervon.dev/en/lookspan/)** | Local-first observability for AI agents, MCP-native. See every span your agents emit. |
-| **[inferbench](https://fervon.dev/en/inferbench/)** | Benchmark local LLM inference on your own hardware — real tok/s, TTFT and VRAM across a 124-model catalogue. |
+| **[inferbench](https://fervon.dev/en/inferbench/)** | Benchmark local LLM inference on your own hardware — real tok/s, TTFT and VRAM across a 126-model catalogue. |
 | **[ClaudeScope](https://fervon.dev/en/claudescope/)** | Full-text search and usage analytics over all your Claude Code sessions. Zero config, zero network. |
 | **[Mission Control](https://fervon.dev/en/launchpad/)** | One folder, a dozen repos, one screen — launches them all on non-clashing ports. |
-| **[Veredicto](https://fervon.dev/en/veredicto/)** | The CI check that catches when an AI agent games your tests: over-mocking, vacuous asserts, silent `.skip`. |
+| **[Veredicto](https://fervon.dev/en/veredicto/)** | The CI check that catches when an AI agent games your tests: over-mocking, vacuous asserts, silent `.skip`. 11 deterministic rules, no API key. $19 per repo/month. |
 | **[Pregón](https://fervon.dev/en/pregon/)** | Self-hosted cross-poster — compose once, publish everywhere, track real traction. |
 
 Full catalogue, screenshots and pricing at **[fervon.dev](https://fervon.dev/en/)**.
@@ -72,12 +78,12 @@ Productos con página propia, capturas, precio y descarga. Cada uno tiene su sit
 | Producto | Qué resuelve | Código |
 |---|---|---|
 | 🧠 **[Regenta](https://fervon.dev/regenta/)** | La capa de control agentic: orquesta, dirige y audita flotas de agentes de IA. Roles, políticas y trazas de todo lo que tocan. | privado · [landing](https://github.com/JoniMartin27/regenta) |
-| 🧵 **[Trace](https://fervon.dev/trace/)** | Memoria personal local-first: encuentra lo que viste, leíste o hiciste. Sin grabar la pantalla y sin nube. | privado |
+| 🧵 **[Trace](https://fervon.dev/trace/)** | Memoria personal local-first: encuentra lo que viste, leíste o hiciste. Sin grabar la pantalla y sin nube. **39 $ pago único**, Windows · macOS · Linux. | privado |
 | 🔭 **[Lookspan](https://fervon.dev/lookspan/)** | Observabilidad local-first para agentes de IA, nativa para MCP. Mira cada span que emiten, en vivo. | [repo](https://github.com/JoniMartin27/lookspan) <a href="https://github.com/JoniMartin27/lookspan"><img src="https://img.shields.io/github/stars/JoniMartin27/lookspan?style=flat&label=%E2%98%85&color=ff6a00&labelColor=1a1310" alt="estrellas de Lookspan"></a> |
-| ⚡ **[inferbench](https://fervon.dev/inferbench/)** | Descarga, arranca y mide motores de inferencia LLM locales con un clic: tok/s, TTFT y VRAM reales sobre un catálogo de 124 modelos. | [repo](https://github.com/JoniMartin27/inferbench) <a href="https://github.com/JoniMartin27/inferbench"><img src="https://img.shields.io/github/stars/JoniMartin27/inferbench?style=flat&label=%E2%98%85&color=ff6a00&labelColor=1a1310" alt="estrellas de inferbench"></a> |
+| ⚡ **[inferbench](https://fervon.dev/inferbench/)** | Descarga, arranca y mide motores de inferencia LLM locales con un clic: tok/s, TTFT y VRAM reales sobre un catálogo de 126 modelos. App de escritorio: [instalador](https://github.com/JoniMartin27/inferbench/releases/latest) para Windows, macOS y Linux. | [repo](https://github.com/JoniMartin27/inferbench) <a href="https://github.com/JoniMartin27/inferbench"><img src="https://img.shields.io/github/stars/JoniMartin27/inferbench?style=flat&label=%E2%98%85&color=ff6a00&labelColor=1a1310" alt="estrellas de inferbench"></a> |
 | 🔎 **[ClaudeScope](https://fervon.dev/claudescope/)** | Búsqueda full-text en todas tus sesiones de Claude Code, más panel de uso y coste. Cero configuración, cero red. | [repo](https://github.com/JoniMartin27/claudescope) |
 | 🛰️ **[Mission Control](https://fervon.dev/launchpad/)** | Una carpeta, doce repos, una pantalla: los descubre y los arranca a la vez en puertos sin colisión. | [repo](https://github.com/JoniMartin27/launchpad) |
-| ⚖️ **[Veredicto](https://fervon.dev/veredicto/)** | El check de CI que pilla los tests que no prueban nada: over-mocking, asserts vacuos y `.skip` en silencio. Reglas deterministas, sin API key. | [repo](https://github.com/JoniMartin27/veredicto) |
+| ⚖️ **[Veredicto](https://fervon.dev/veredicto/)** | El check de CI que pilla los tests que no prueban nada: over-mocking, asserts vacuos y `.skip` en silencio. 11 reglas deterministas, sin API key, nada sale del runner. **19 $ por repositorio y mes**. | [repo](https://github.com/JoniMartin27/veredicto) |
 | 📣 **[Pregón](https://fervon.dev/pregon/)** | Cross-poster: compón una vez y publica adaptado a catorce canales, midiendo la tracción de verdad. | [repo](https://github.com/JoniMartin27/pregon) |
 
 ---
@@ -102,13 +108,38 @@ pip install lookspan      # el SDK de Lookspan, también en Python
 
 Lookspan trae además SDKs de instrumentación en una línea: [`@lookspan/anthropic`](https://www.npmjs.com/package/@lookspan/anthropic), [`@lookspan/openai`](https://www.npmjs.com/package/@lookspan/openai) y [`@lookspan/mcp`](https://www.npmjs.com/package/@lookspan/mcp).
 
+inferbench no va por npm: es una app de escritorio y se baja como instalador desde [releases](https://github.com/JoniMartin27/inferbench/releases/latest).
+
+---
+
+## Trabajo por encargo
+
+Además de los productos, **Fervon construye software a medida**. Seis tipos de trabajo, distintos entre sí:
+
+| | Qué es |
+|---|---|
+| 🧩 **Software a medida** | Aplicaciones web y APIs hechas al proceso del cliente: su base de datos, sus roles, su panel de administración. |
+| 🚀 **SaaS desde cero** | Multi-tenant, planes y límites, facturación que cuadra con la pasarela y alta en autoservicio sin llamada comercial. |
+| 💬 **Chatbots con tus datos** | RAG sobre tus documentos, tu catálogo o tu histórico, citando la fuente — y contra un modelo local si nada puede salir de tu red. |
+| 🤖 **Agentes y automatización** | Reversibles, observables y con freno: lo irreversible se para y pregunta. |
+| 🔌 **LLM en un producto que ya existe** | Resumen, extracción de campos, clasificación. Medido por coste por petición **antes** de publicarlo. |
+| 🧰 **Herramientas internas y paneles** | Local-first, alcance pequeño, cuestión de días. |
+
+**Cómo se trabaja:** precio cerrado por proyecto, acordado por escrito antes de empezar — nunca por horas. Un cambio de alcance es una cifra nueva, no una sorpresa. El repositorio se traspasa con su documentación y sus pruebas, desplegado en tu infraestructura, sin licencia que lo ate a mí. Base en Málaga, **100 % en remoto**, en español o en inglés.
+
+**Lo que no hago:** apps nativas de iOS/Android, videojuegos, SEO/marketing/branding, ni meterme dentro de un equipo ajeno durante meses.
+
+→ **[Detalle, proceso y contacto en fervon.dev/servicios](https://fervon.dev/servicios/)**
+
 ---
 
 ## En el yunque
 
-Cosas que ya funcionan pero todavía no son públicas:
+Cosas que funcionan y no están en el catálogo de Fervon:
 
+- 🧽 **MiLimpiadora** — tablón de limpiadoras para toda España, en producción: cuentas, muro de contactos, cobros y 250+ páginas programáticas sobre Cloudflare Pages + D1.
 - 🏠 **Brillo** — gestión de un negocio de limpiezas real: partes, clientes y facturación. En uso a diario.
+- 🍲 **Sofrito** — recetario familiar con despensa y planificador, PWA tras una puerta firmada.
 - 📈 **Bot de trading** — cripto y acciones, *paper-first*, con backtesting honesto y control de riesgo medido.
 - 🍳 **Cocina Barata** — recetas baratas y dónde comprar cada ingrediente al mejor precio.
 - 🏘️ **Comparador de pisos** — decenas de miles de anuncios en Postgres + PostGIS para separar la ganga del ruido.
@@ -124,7 +155,7 @@ Casi todo lo que publico se cuece antes en un **laboratorio doméstico sobre Ras
 - Un **agente auto-evolutivo** que diagnostica, parchea y despliega la propia máquina, y luego te lo cuenta.
 - **Voz de punta a punta**: wake-word propio, reconocimiento con gramática y síntesis, todo sin conexión.
 - **Observabilidad de verdad**: Prometheus + Grafana, decenas de procesos críticos vigilados y avisos por Telegram.
-- Un **Atlas** interno: una wiki de 31 páginas que documenta cada sistema y se actualiza con cada cambio.
+- Un **Atlas** interno: una wiki que documenta cada sistema y se actualiza en el mismo cambio que lo toca.
 - Cine, música, arte generado en local, copias de seguridad y una cola que decide quién habla primero.
 
 Cero nube: todo se queda en casa, y lo que se aprende ahí acaba en los productos de arriba.
@@ -215,10 +246,11 @@ Y el pulso de la forja — último commit en cada repo público:
 ## Contacto
 
 - 🔥 Web y catálogo: **[fervon.dev](https://fervon.dev)** · [quién soy](https://fervon.dev/about/) · [contacto](https://fervon.dev/contacto/)
+- 💼 ¿Un proyecto por encargo? **[fervon.dev/servicios](https://fervon.dev/servicios/)** — precio cerrado, en remoto desde Málaga
 - 💼 GitHub: [@JoniMartin27](https://github.com/JoniMartin27) · organización [@Fervon](https://github.com/Fervon)
 - 📧 Email: [jonathanmartinpaez@gmail.com](mailto:jonathanmartinpaez@gmail.com)
 
 <p align="center">
   <a href="https://fervon.dev"><strong>Fervon</strong></a> — estudio de software autónomo · <em>forjado al rojo vivo</em><br>
-  <sub>Agentes de IA, observabilidad local-first y herramientas para desarrolladores. Desde España, sin nube.</sub>
+  <sub>Agentes de IA, observabilidad local-first y herramientas para desarrolladores. Productos propios y software por encargo, desde Málaga y sin nube.</sub>
 </p>
